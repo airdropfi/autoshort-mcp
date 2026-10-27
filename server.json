@@ -3,7 +3,11 @@
   "name": "org.autoshort/autoshort",
   "title": "AutoShort",
   "description": "Make faceless AI short videos from a topic, product page or image: script, voiceover, captions.",
-  "version": "2.3.0",
+  "version": "2.3.1",
+  "repository": {
+    "url": "https://github.com/airdropfi/autoshort-mcp",
+    "source": "github"
+  },
   "websiteUrl": "https://autoshort.org/en/developers",
   "icons": [
     { "src": "https://autoshort.org/logo.png", "mimeType": "image/png", "sizes": ["1024x1024"] }
