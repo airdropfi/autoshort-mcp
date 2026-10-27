@@ -1,0 +1,25 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "org.autoshort/autoshort",
+  "title": "AutoShort",
+  "description": "Make faceless AI short videos from a topic, product page or image: script, voiceover, captions.",
+  "version": "2.3.0",
+  "websiteUrl": "https://autoshort.org/en/developers",
+  "icons": [
+    { "src": "https://autoshort.org/logo.png", "mimeType": "image/png", "sizes": ["1024x1024"] }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://autoshort.org/api/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Optional. Leave empty to sign in with OAuth. Or send your AutoShort API key as 'Bearer sk_live_...' (create one at https://autoshort.org/en/developers).",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
